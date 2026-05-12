@@ -1,0 +1,20 @@
+name: OrinstoneTeams
+version: ${version}
+main: fr.orinstone.orinstoneteams.OrinstoneTeamsPlugin
+api-version: "1.21"
+author: Orinstone
+softdepend:
+  - Vault
+  - PlaceholderAPI
+
+commands:
+  team:
+    description: Commandes OrinstoneTeams
+    usage: /team
+    aliases: [teams, t]
+
+permissions:
+  orinstoneteams.use:
+    default: true
+  orinstoneteams.admin:
+    default: op
